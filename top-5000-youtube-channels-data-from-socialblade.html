@@ -15613,7 +15613,7 @@ Name: Subscribers, dtype: float64</pre>
     <span class="k">return</span> <span class="n">acuracy</span>
 
 
-<span class="c1">#apply z-socre to normalization of atributes================================</span>
+<span class="c1">#apply z-score to normalization of attributes================================</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Subscribers StdSca&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">stdScaler</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Subscribers&quot;</span><span class="p">])</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Video views StdSca&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">stdScaler</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Video views&quot;</span><span class="p">])</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Video Uploads StdSca&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">stdScaler</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Video Uploads&quot;</span><span class="p">])</span>
